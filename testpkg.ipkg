@@ -1,0 +1,9 @@
+package testpkg
+
+sourcedir = "src"
+
+modules = TestMod
+
+postbuild = "make -C clib"
+postinstall = "make -C clib install"
+
